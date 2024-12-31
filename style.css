@@ -200,7 +200,7 @@ button:disabled {
 /* Active and Hover States */
 .stars span:hover,
 .stars span.active {
-  color: #1a73e8; /* Spotify green for active stars */
+  color: #1DB954; /* Spotify green for active stars */
 }
 
 
