@@ -333,3 +333,27 @@ button.delete:hover {
 #removeSelectedSong:hover {
   background-color: #1DB954 !important; /* Spotify green on hover */
 }
+
+footer{
+ 
+
+  /* Gradient Glow Effect with Lighter Green */
+  position: relative;
+  display: inline-block;
+
+  background-image: linear-gradient(
+    to right,
+    #1DB954, 
+    #80E6A2, /* Lighter version of green */
+    #1DB954
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
+  color: transparent;
+
+  /* Slower Animation */
+  animation: glowAnimation 6s infinite linear; /* Slower duration */
+  pointer-events: none;
+  user-select: none;
+}
