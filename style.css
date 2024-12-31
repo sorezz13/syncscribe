@@ -7,7 +7,7 @@
 
 html, body {
   font-family: 'Poppins', sans-serif;
-  background: #1a1a1a;
+  background: #ffffff;
   color: #ffffff;
   height: 100%;
   width: 100%;
@@ -41,9 +41,9 @@ body::-webkit-scrollbar {
 
   background-image: linear-gradient(
     to right,
-    #1DB954, 
-    #80E6A2, /* Lighter version of green */
-    #1DB954
+    #1a73e8, 
+    #64a4f8, /* Lighter version of green */
+    #1351a1
   );
   background-size: 200% auto;
   background-clip: text;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
   font-size: 0.9rem;
   padding: px 15px;
   border-radius: 15px;
-  background: #1DB954;
+  background: #1a73e8;
   color: white;
   border: none;
   cursor: pointer;
@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 }
 
 .connect-button:hover {
-  background: #14843C;
+  background: #124d9b;
 }
 
 .header {
@@ -112,7 +112,7 @@ textarea {
   padding: 12px;
   border: none;
   border-radius: 10px;
-  background: #2e2e2e;
+  background: #d4d4d4;
   color: #e6e6e6;
   font-size: 1rem;
   resize: none; /* Prevent resizing */
@@ -120,7 +120,7 @@ textarea {
 
 textarea:focus {
   outline: none;
-  border: 2px solid #1DB954;
+  border: 2px solid #1a73e8;
 }
 
 /* Song Search Section */
@@ -140,7 +140,7 @@ textarea:focus {
 }
 
 #songSearch:focus {
-  border: 2px solid #1DB954;
+  border: 2px solid #1a73e8;
 }
 
 /* Buttons */
@@ -148,7 +148,7 @@ button {
   padding: 10px 20px;
   font-size: 1.1rem;
   color: #fff;
-  background: linear-gradient(135deg, #1DB954, #0e7a3f);
+  background: linear-gradient(135deg, #1a73e8, #104080);
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -200,7 +200,7 @@ button:disabled {
 /* Active and Hover States */
 .stars span:hover,
 .stars span.active {
-  color: #1DB954; /* Spotify green for active stars */
+  color: #1a73e8; /* Spotify green for active stars */
 }
 
 
