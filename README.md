@@ -1,6 +1,6 @@
-# spoti.notes
+# sync//scribe
 
-**spoti.notes** is a modern web application that combines the joy of journaling with the thrill of music. The app lets users document their thoughts, associate them with songs, and rate those songs to reflect their personal experiences and preferences.
+**sync//scribe** is a modern web application that combines the joy of journaling with the thrill of music. The app lets users document their thoughts, associate them with songs, and rate those songs to reflect their personal experiences and preferences.
 
 ## Features
 
@@ -59,7 +59,7 @@
 
 - HTML5, CSS3, and JavaScript
 - Spotify Web API
-- LocalStorage for saving journal entries
+- Firebase for saving journal entries and encryption 
 - Responsive design using CSS media queries
 
 ## Contributing
@@ -84,6 +84,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 
 For questions or suggestions, please reach out to:
-- **Your Name:** Leelan Bronson  
+- **Me** Leelan Bronson  
 - **Email:** Leelanbronson1@gmail.com  
 - **GitHub:** [Sorezz13](https://github.com/Sorezz13)
